@@ -2,12 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import Problem from './components/Problem.js'
 import twoSums from './algorithms/twoSums.js'
+import validParentheses from './algorithms/validParen.js'
 import {isPalendrome, removePalindromeSub} from './algorithms/isPalendrome.js'
 import countOfCharInString from './algorithms/stringCount.js'
+import isValid from './algorithms/validParen.js';
 
-
-console.log(countOfCharInString('s','snakes'))
-console.log(countOfCharInString('i','mississippi'))
+console.log(isValid(')('))
 
 
 
