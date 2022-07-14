@@ -21,9 +21,9 @@ const isPalendrome = (string) => {
 
   for (let start = 0; start < countTo; start++){
     if (string[start] !== string[end]){
-        return false
+      return false
     } else {
-        end--
+      end--
     }
   }
   return true

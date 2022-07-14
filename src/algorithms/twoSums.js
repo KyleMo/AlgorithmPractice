@@ -3,16 +3,17 @@
 const twoSums = (arr, target) => {
   let storage = {}
 
-  for (let i = 0; i < arr.length; i++){
-    let key = target - arr[i]
+  for (let i=0; i<arr.length; i++){
+    let dif = target - arr[i];
 
     if(storage[arr[i]] === undefined){
-      storage[key] = i;
-    } else {
+      storage[dif] = i
+    }
+    else {
       return [storage[arr[i]], i]
     }
   }
-  console.log(storage)
+
 }
 
 export default twoSums;

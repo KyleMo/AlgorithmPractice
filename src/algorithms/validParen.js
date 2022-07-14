@@ -26,7 +26,7 @@ const isValid = (string) => {
 
     return stack.length === 0 
 
-
+//Notice the change
 }
 
 const isSameType = (stackTop, endingParenType) => {
