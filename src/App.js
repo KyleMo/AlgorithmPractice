@@ -9,6 +9,7 @@ import validParentheses from './algorithms/validParen.js'
 import {isPalendrome, removePalindromeSub} from './algorithms/isPalendrome.js'
 import countOfCharInString from './algorithms/stringCount.js'
 import isValid from './algorithms/validParen.js';
+import isValidParen from './algorithms/isValidParen';
 
 import ListNode from './algorithms/ListNode.js'
 import LinkedList from './algorithms/LinkedList.js'
@@ -41,7 +42,8 @@ while (list !== null){
 
 */
 
-console.log(twoSums([2,7,11,15],9))
+
+console.log(isValidParen('{()[]}'))
 
 
 
